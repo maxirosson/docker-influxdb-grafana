@@ -1,11 +1,8 @@
 # Docker Image with InfluxDB and Grafana
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/philhawthorne/docker-influxdb-grafana.svg)](https://dockerhub.com/philhawthorne/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/philhawthorne/docker-influxdb-grafana.svg)](https://dockerhub.com/philhawthorne/docker-influxdb-grafana)
+[![Docker Pulls](https://img.shields.io/docker/pulls/maxirosson/docker-influxdb-grafana.svg)](https://dockerhub.com/maxirosson/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/maxirosson/docker-influxdb-grafana.svg)](https://dockerhub.com/maxirosson/docker-influxdb-grafana)
 
 ![Grafana][grafana-version] ![Influx][influx-version] ![Chronograf][chronograf-version]
-
-[![Buy me a coffee][buymeacoffee-icon]][buymeacoffee]
-
 
 This is a Docker image based on the awesome [Docker Image with Telegraf (StatsD), InfluxDB and Grafana](https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana) from [Samuele Bistoletti](https://github.com/samuelebistoletti).
 
@@ -19,9 +16,9 @@ The main purpose of this image is to be used to show data from a [Home Assistant
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.7.7   |
+| InfluxDB     | 1.7.9   |
 | ChronoGraf   | 1.7.12  |
-| Grafana      | 6.4.1   |
+| Grafana      | 6.5.2   |
 
 ## Quick Start
 
