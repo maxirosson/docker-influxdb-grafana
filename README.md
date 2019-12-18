@@ -4,15 +4,14 @@
 
 ![Grafana][grafana-version] ![Influx][influx-version] ![Chronograf][chronograf-version]
 
-This is a Docker image based on the awesome [Docker Image with Telegraf (StatsD), InfluxDB and Grafana](https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana) from [Samuele Bistoletti](https://github.com/samuelebistoletti).
+This is a Docker image based on the awesome [Docker Image with InfluxDB and Grafana](https://github.com/philhawthorne/docker-influxdb-grafana) from [Phil Hawthorne](https://github.com/philhawthorne).
 
 The main point of difference with this image is:
 
-* Persistence is supported via mounting volumes to a Docker container
-* Grafana will store its data in SQLite files instead of a MySQL table on the container, so MySQL is not installed
-* Telegraf (StatsD) is not included in this container
-
-The main purpose of this image is to be used to show data from a [Home Assistant](https://home-assistant.io) installation. For more information on how to do that, please see my website about how I use this container.
+* Upgraded Grafana & InfluxDB versions
+* Enabled Users Signup on Grafana
+* Installed some Grafana plugins: `grafana-piechart-panel` & `grafana-influxdb-flux-datasource`
+* Enabled InfluxDB Flux
 
 | Description  | Value   |
 |--------------|---------|
