@@ -100,9 +100,6 @@ Port: 8086
 1. Establish a ssh connection with the container
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
-[buymeacoffee-icon]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/philhawthorne
-
-[grafana-version]: https://img.shields.io/badge/Grafana-6.4.1-brightgreen
-[influx-version]: https://img.shields.io/badge/Influx-1.7.7-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-6.5.2-brightgreen
+[influx-version]: https://img.shields.io/badge/Influx-1.7.9-brightgreen
 [chronograf-version]: https://img.shields.io/badge/Chronograf-1.7.12-brightgreen
