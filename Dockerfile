@@ -63,8 +63,8 @@ COPY influxdb/init.sh /etc/init.d/influxdb
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
 
 # Install Grafana plugins
-grafana-cli plugins install grafana-piechart-panel
-grafana-cli plugins install grafana-influxdb-flux-datasource
+RUN grafana-cli plugins install grafana-piechart-panel
+RUN grafana-cli plugins install grafana-influxdb-flux-datasource
 
 RUN chmod 0755 /etc/init.d/influxdb
 
